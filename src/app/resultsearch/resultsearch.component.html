@@ -1,0 +1,30 @@
+<div class="card" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="1%" fxLayoutAlign="center">
+    <div class="cardList">
+  <mat-card class="card-picture" fxFlex="26%" *ngFor="let track of tracks;index as i">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div> 
+         <mat-card-title>{{track.name}}</mat-card-title>
+        <!-- <mat-card-subtitle>{{song.name}}</mat-card-subtitle> -->
+      </mat-card-header>
+      <img class="image" mat-card-image src="assets/images/cardimage.jpeg" alt="MUZIX" style="width: 250px">
+      <mat-card-content>
+       
+        <p>
+          Song: {{track.name}}
+        </p>
+      
+      </mat-card-content>
+      <mat-card-actions>
+       <button mat-button (click)="save(track,i)">ADD TO PLAYLIST <mat-icon> </mat-icon></button>
+        <!-- <button mat-button>COMMENT<mat-icon> </mat-icon></button> -->
+      </mat-card-actions> 
+    </mat-card>  
+    </div>
+    </div>
+  
+   
+  
+          
+      
+    
+ 

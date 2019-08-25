@@ -1,0 +1,115 @@
+.card-picture {
+    /* max-width: 23%;
+    margin-bottom:2%; 
+    margin-left:80px;
+    */
+    max-width:300px;
+    max-height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width:2px;
+     /* relative;
+    top: 50%;
+    transform: translateY(-50%);  */
+}
+.example-header-image {
+  text-align:center;
+  margin-top:30px;
+  margin-left: -56px;
+}
+   
+  .cardList{
+    /* background-image: "assets/images/logo.png";
+    background-size: cover;    */
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    /* justify-content:flex-start; */
+    width:100%;
+    bottom:20px;
+    
+    
+  }
+  .image{
+    /* width: 120px; */
+    /* padding: 0px; */
+    /* margin-left:50px; */
+    /* align:center */ 
+    background-size: cover;
+  }
+  .card-picture{
+    /* background-image:"assets/images/background.png"; */
+    background-color:honeydew;
+  
+  }
+.card{
+  margin-top:6px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  background-size: cover;
+
+}
+
+  /* } */ 
+  /* .container
+  {
+    background-image:"../assets/images/cardbackground.jpeg";
+    background-color:"blue"; 
+    text-align: center;
+    height:400px;
+  }  */ 
+  /* .example-header-image title
+  {
+    font-weight: "bold";
+  } */
+
+
+/*   
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+ /* .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}  */
+
+/* Remove extra left and right margins, due to padding in columns */
+ /* .row {margin: 0 -5px;}  */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+
+
+ /* Responsive columns - one column layout (vertical) on small screens */ 
+  /* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}  
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  /* .cardlist, .cardpicture, .image {
+    width:100%;
+  }
+}  */
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }

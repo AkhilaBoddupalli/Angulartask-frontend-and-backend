@@ -1,0 +1,35 @@
+.container
+{
+    margin-top:20px;
+}
+.card-picture {
+    width: 23%;
+    margin-bottom:2%; 
+    margin-left:80px;
+    background-color:honeydew;
+     /* relative;
+    top: 50%;
+    transform: translateY(-50%);  */
+}
+/* .example-header-image title{
+  text-align:center;
+}
+   */
+  .cardList{
+    /* background-image: "assets/images/logo.png";
+    background-size: cover;    */
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    
+  }
+  .image{
+    width: 120px;
+    padding: 0px;
+    margin-left:50px;
+    /* align:center */ 
+  }
+  .card{
+
+  }

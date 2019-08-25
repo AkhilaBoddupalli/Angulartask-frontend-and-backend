@@ -1,0 +1,47 @@
+
+
+<div class="card" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="1%" fxLayoutAlign="center">
+    <div class="cardList">
+  <mat-card class="card-picture" fxFlex="26%" *ngFor="let track of tracks;index as i">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div> 
+         <mat-card-title>{{track.name}}</mat-card-title>
+        <!-- <mat-card-subtitle>{{track.a}}</mat-card-subtitle> --> 
+      </mat-card-header>
+      <img class="image" mat-card-image src="assets/images/cardimage.jpeg" alt="MUZIX" style="width: 250px">
+      <mat-card-content>
+       
+        <p>
+          Song: {{track.name}}
+        </p>
+      
+      </mat-card-content>
+      <mat-card-actions>
+        <button (click)="removetrack(track)">Delete</button>
+          <button (click)="updatetrack(track)">Edit</button>
+      </mat-card-actions> 
+    </mat-card>  
+    </div>              
+  <!-- <span style="margin: auto;padding: 6px;color:whitesmoke" *ngIf="tracks.length == 0">
+    no data
+  </span> -->
+  
+  
+<div *ngIf="showform == true">
+    
+        <input type = "text"  placeholder = "Song name" [(ngModel)]="songname">
+        <br/>
+        <input type = "text" placeholder = "Artist name" [(ngModel)]="artistname">
+        <br/>
+        <button (click)="update()">update</button>
+        
+    </div>
+    </div>
+  
+   
+  
+          
+      
+    
+ 
+

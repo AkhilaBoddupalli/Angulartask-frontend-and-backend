@@ -1,0 +1,13 @@
+/* #search-form {
+    text-align: right;
+    position: relative;
+    float:right;
+    margin-bottom: 70px;
+    background-color:blue;
+    /* display:inline; */
+/* } */ 
+.search
+{
+    float:right;
+    /* margin-bottom: 70px; */
+}

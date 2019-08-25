@@ -1,0 +1,39 @@
+.header
+{
+    background: palevioletred;
+
+    text-align:center;
+    color:black;
+    height:70px;
+}
+.header img
+{
+    float:left;
+    width:70px;
+    height:80px;
+    margin-bottom:30px;
+    margin-left: 8px;
+    /* width: 70px;
+    /* margin-left: 2px; */
+    /* : 64px;height
+    margin-top: 3px; */ 
+}
+.addbutton
+{
+    float:right;
+    margin-top: 12px;
+    
+}
+.header h1{
+    font-size: 40px;
+    margin-top:5px;
+    text-align:center;
+    font-display: bold;
+    color:rgb(37, 131, 185);
+
+    
+    
+}
+/* .header button{
+    background-color:lightcyan;
+} */
